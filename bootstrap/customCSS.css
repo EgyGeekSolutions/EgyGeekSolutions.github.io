@@ -1,0 +1,186 @@
+body{
+    background-color: #707070;
+}
+
+#logoFace{
+    background-color: #FFFFFF;
+    width: 900px;
+    height: 520px;
+    position: absolute;
+    left: 220px;
+    top: 75px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #a58d2d;
+    border-style: outset;
+}
+
+#chearing{
+    z-index: 2;
+    width: 160px;
+    position: absolute;
+    left: 370px;
+    top: 30px;
+    color: #a58d2d
+    ;
+}
+
+#logo{
+    position: absolute;
+    left: 250px;
+    top: 75px;
+    width: 400px;
+    height: 400px;
+}
+
+#vision{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 680px;
+    left: 220px;
+    width: 900px;
+    height: 500px;
+    border-style: groove;
+    border-color: #a58d2d;
+    border-width: 2px;
+}
+
+#ourvision{
+    color: #a58d2d;
+    position: relative;
+    left: 375px;
+    top: 25px;
+}
+
+#devs{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 1200px;
+    left: 220px;
+    width: 900px;
+    height:auto;
+    border-style: groove;
+    border-color: #a58d2d;
+    border-width: 2px;
+}
+
+#devtext{
+    color: #a58d2d;
+    position: relative;
+    left: 375px;
+    top: 25px;
+}
+
+#feedback{
+    background-color: #FFFFFF;
+    position: relative;
+    top: 2150px;
+    left: 220px;
+    width: 900px;
+    height:auto;
+    border-style: groove;
+    border-color: #a58d2d;
+    border-width: 2px;
+}
+
+#feedbacktext{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: #a58d2d;
+}
+
+.navbarfix{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.icons{
+    background-color: #a58d2d;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.icons:hover{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.linav{
+    position: absolute;
+    font-size: 25px;
+    width: 150px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.linav:hover{
+    font-size: 26px;
+    color: #101010;
+}
+
+.customcard{
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 400px;
+    height: 170px;
+    float: left;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: #a58d2d;
+}
+
+.logohover{
+    position: absolute;
+    left: 18px;
+    height: 100px;
+    width: 75px;
+    opacity: 0.5;
+}
+
+.imagecard{
+    z-index: 1;
+    position: relative;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+    border-style: none;
+    
+}
+
+.cardtext{
+    font-size: 20px;
+    width: 250px;
+    position: relative;
+    bottom: 20px;
+}
+
+.devcard{
+    position: relative;
+    float: left;
+    top: 40px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.devimg{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 40px;
+}
+
+.feedinput{
+    width: 500px;
+    font-family: cursive;
+    border-color: #a58d2d;
+    border-style: groove;
+    border-radius: 5px;
+}
